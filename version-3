@@ -1,0 +1,13 @@
+while True:
+    print('-'*30)
+    num = int(input('Digite um numero: '))
+    print('-'*30)
+    if num == 0:
+        break
+    count = 0
+    while True:
+        if count == 10:
+            break
+        count += 1
+        print(f'{num} X {count} = {num * count}')
+        print('FIM')
